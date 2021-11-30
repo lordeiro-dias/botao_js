@@ -1,0 +1,40 @@
+#conteudo{
+    width: 400px;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    padding-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: rgb(103, 238, 41);
+    margin: 0 auto;
+    max-height: 270px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+
+}
+
+#conteudo.open{
+    max-height: 1000px;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+
+}
+
+#mostre_mais{
+    background: rgb(104, 103, 103);
+    color: rgb(103, 238, 41);
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 140px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
